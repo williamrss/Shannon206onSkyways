@@ -21,6 +21,8 @@
     }
     main {
       padding: 2rem;
+      max-width: 960px;
+      margin: 0 auto;
     }
     .cta {
       display: inline-block;
@@ -36,9 +38,36 @@
       color: white;
       text-align: center;
       padding: 1rem;
-      position: fixed;
+      margin-top: 3rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 2rem;
+    }
+    .gallery img {
       width: 100%;
-      bottom: 0;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .calendar {
+      margin-top: 2rem;
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input[type="date"] {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
     }
   </style>
 </head>
@@ -58,6 +87,30 @@
       <li>Piscina no rooftop com vista panorâmica</li>
     </ul>
     <a class="cta" href="#reservas">Reservar Agora</a>
+
+    <section class="gallery">
+      <h2>Galeria</h2>
+      <img src="images/living-room.jpg" alt="Sala de Estar">
+      <img src="images/living-room2.jpg" alt="Sala de Estar">
+      <img src="images/main-bedroom.jpg" alt="Quarto">
+	  <img src="images/bedroom2.jpg" alt="Quarto">
+      <img src="images/kitchen.jpg" alt="Cozinha">
+      <img src="images/window-view.jpg" alt="Vista da Montanha">
+    </section>
+
+    <section id="reservas" class="calendar">
+      <h2>Calendário de Reservas</h2>
+      <p>Seleciona a data de entrada e saída para verificar disponibilidade:</p>
+      <label for="checkin">Data de Entrada:</label>
+      <input type="date" id="checkin" name="checkin" />
+
+      <label for="checkout" style="margin-top:1rem;">Data de Saída:</label>
+      <input type="date" id="checkout" name="checkout" />
+    </section>
   </main>
   <footer>
-    <p>&copy;
+    <p>&copy; 2025 Shannon 206 · Zonnebloem, Cape Town</p>
+  </footer>
+</body>
+</html>
+
