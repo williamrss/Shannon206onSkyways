@@ -1,12 +1,11 @@
 /* Base */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
-  background-color: #fff;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #ffffff; /* white background */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
 }
 
 /* Layout */
@@ -17,14 +16,21 @@ body {
 }
 
 /* Typography */
-h1, h2, h3 {
-  font-weight: 600;
-  color: #222;
+h1, h2, h3, p {
   margin-bottom: 1rem;
 }
 
 p {
   margin-bottom: 1.5rem;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Buttons */
