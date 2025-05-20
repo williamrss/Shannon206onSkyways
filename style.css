@@ -1,0 +1,81 @@
+/* Base */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background-color: #ff5a5f;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e04848;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Cards */
+.card {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  padding: 2rem 0;
+  border-top: 1px solid #eee;
+}
