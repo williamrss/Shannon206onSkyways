@@ -4,113 +4,88 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shannon 206 – Apartamento T2 em Zonnebloem, Cape Town</title>
-  <meta name="description" content="Apartamento T2 em Zonnebloem, Cape Town — segurança 24h, piscina no rooftop, estacionamento e localização central. Reserve diretamente connosco para estadias de curta ou longa duração." />
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    main {
-      padding: 2rem;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    .cta {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #e67e22;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 2rem;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .calendar {
-      margin-top: 2rem;
-      background-color: #fff;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-    label {
-      display: block;
-      margin-bottom: 0.5rem;
-      font-weight: bold;
-    }
-    input[type="date"] {
-      padding: 0.5rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <h1>Shannon 206 – Zonnebloem, Cape Town</h1>
-    <p>O teu refúgio urbano com vista para a Table Mountain</p>
-  </header>
-  <main>
-    <h2>Sobre o Apartamento</h2>
-    <p>Shannon 206 é um apartamento T2 moderno e centralmente localizado em Zonnebloem, Cape Town. Ideal para estadias de curta ou longa duração, oferece acesso fácil ao centro da cidade, segurança 24h, piscina no rooftop e estacionamento privado.</p>
+  <!-- Navigation Bar -->
+  <nav>
     <ul>
-      <li>2 Quartos com camas confortáveis</li>
-      <li>Cozinha totalmente equipada</li>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#gallery">Galeria</a></li>
+      <li><a href="#amenities">Comodidades</a></li>
+      <li><a href="#reviews">Avaliações</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Bem-vindo ao Shannon 206</h1>
+    <p>Seu refúgio urbano com vista para a Table Mountain</p>
+    <a href="#booking" class="cta-button">Reserve Agora</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Sobre o Apartamento</h2>
+    <p>Shannon 206 é um apartamento T2 moderno localizado em Zonnebloem, Cape Town. Ideal para estadias de curta ou longa duração, oferece acesso fácil ao centro da cidade, segurança 24h, piscina no rooftop e estacionamento privado.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery-grid">
+      <img src="images/living-room.jpg" alt="Sala de Estar">
+      <img src="images/bedroom.jpg" alt="Quarto">
+      <img src="images/kitchen.jpg" alt="Cozinha">
+      <img src="images/balcony.jpg" alt="Varanda com Vista">
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section id="amenities">
+    <h2>Comodidades</h2>
+    <ul>
       <li>Wi-Fi de alta velocidade</li>
       <li>Estacionamento seguro</li>
-      <li>Piscina no rooftop com vista panorâmica</li>
+      <li>Piscina no rooftop</li>
+      <li>Cozinha totalmente equipada</li>
+      <li>Segurança 24h</li>
     </ul>
-    <a class="cta" href="#reservas">Reservar Agora</a>
+  </section>
 
-    <section class="gallery">
-      <h2>Galeria</h2>
-      <img src="images/living-room.jpg" alt="Sala de Estar">
-      <img src="images/living-room2.jpg" alt="Sala de Estar">
-      <img src="images/main-bedroom.jpg" alt="Quarto">
-	  <img src="images/bedroom2.jpg" alt="Quarto">
-      <img src="images/kitchen.jpg" alt="Cozinha">
-      <img src="images/window-view.jpg" alt="Vista da Montanha">
-    </section>
+  <!-- Reviews Section -->
+  <section id="reviews">
+    <h2>Avaliações</h2>
+    <blockquote>
+      <p>"Tivemos uma estadia maravilhosa no Shannon 206. A vista é incrível e o apartamento é muito confortável."</p>
+      <cite>– João, Lisboa</cite>
+    </blockquote>
+    <!-- Add more testimonials as needed -->
+  </section>
 
-    <section id="reservas" class="calendar">
-      <h2>Calendário de Reservas</h2>
-      <p>Seleciona a data de entrada e saída para verificar disponibilidade:</p>
-      <label for="checkin">Data de Entrada:</label>
-      <input type="date" id="checkin" name="checkin" />
+  <!-- Booking Section -->
+  <section id="booking">
+    <h2>Reservas</h2>
+    <p>Para verificar disponibilidade e preços, visite nossas plataformas de reserva:</p>
+    <ul>
+      <li><a href="https://www.airbnb.com/your-listing" target="_blank">Airbnb</a></li>
+      <li><a href="https://www.booking.com/your-listing" target="_blank">Booking.com</a></li>
+    </ul>
+  </section>
 
-      <label for="checkout" style="margin-top:1rem;">Data de Saída:</label>
-      <input type="date" id="checkout" name="checkout" />
-    </section>
-  </main>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Email: contato@shannon206.com</p>
+    <p>Telefone: +27 12 345 6789</p>
+    <!-- Add a contact form if desired -->
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Shannon 206 · Zonnebloem, Cape Town</p>
+    <!-- Add social media links if available -->
   </footer>
 </body>
 </html>
-
