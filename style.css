@@ -79,3 +79,29 @@ footer {
   padding: 2rem 0;
   border-top: 1px solid #eee;
 }
+
+/* Navigation */
+nav {
+  background-color: #f8f8f8;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  max-width: 300px;
+  border-radius: 8px;
+}
