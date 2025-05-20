@@ -11,16 +11,12 @@
 
 /* Base */
 body {
-<<<<<<< Updated upstream
   margin: 0;
   padding: 0;
   background-color: #ffffff; /* white background */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-  line-height: 1.6;
-=======
   color: var(--text-color);
->>>>>>> Stashed changes
+  line-height: 1.6;
 }
 
 /* Layout */
