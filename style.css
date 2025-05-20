@@ -13,13 +13,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* white background */
+  background-color: #ffffff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: var(--text-color);
   line-height: 1.6;
 }
 
-/* Layout */
+/* Container */
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -122,8 +122,6 @@ nav a {
   max-width: 300px;
   border-radius: 8px;
 }
-<<<<<<< Updated upstream
-=======
 
 /* Hero Section */
 .hero {
@@ -231,5 +229,3 @@ nav a {
 .contact button {
   align-self: flex-start;
 }
-
->>>>>>> Stashed changes

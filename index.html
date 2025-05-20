@@ -1,62 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shannon 206 – Apartamento T2 em Zonnebloem, Cape Town</title>
-  <meta name="description" content="Apartamento T2 em Zonnebloem, Cape Town — segurança 24h, piscina no rooftop, estacionamento e localização central. Reserve diretamente connosco para estadias de curta ou longa duração." />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    main {
-      padding: 2rem;
-    }
-    .cta {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #e67e22;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Shannon 206 – Apartamento T2 em Zonnebloem, Cape Town</title>
+	<meta name="description" content="Apartamento T2 em Zonnebloem, Cape Town — segurança 24h, piscina no rooftop, estacionamento e localização central. Reserve diretamente connosco para estadias de curta ou longa duração." />
+	<link rel="stylesheet" href="style.css">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-XXXXXXXXXX');
+	</script>
+
 </head>
 <body>
-  <header>
-    <h1>Shannon 206 – Zonnebloem, Cape Town</h1>
-    <p>O teu refúgio urbano com vista para a Table Mountain</p>
-  </header>
-  <main>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#about">Sobre</a>
+    <a href="#gallery">Galeria</a>
+    <a href="#amenities">Comodidades</a>
+    <a href="#reviews">Avaliações</a>
+    <a href="#booking">Reservas</a>
+    <a href="#contact">Contato</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Bem-vindo ao Shannon 206</h1>
+    <p>Seu refúgio urbano com vista para a Table Mountain</p>
+    <a href="#booking" class="button">Reserve Agora</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
     <h2>Sobre o Apartamento</h2>
-    <p>Shannon 206 é um apartamento T2 moderno e centralmente localizado em Zonnebloem, Cape Town. Ideal para estadias de curta ou longa duração, oferece acesso fácil ao centro da cidade, segurança 24h, piscina no rooftop e estacionamento privado.</p>
-    <ul>
-      <li>2 Quartos com camas confortáveis</li>
-      <li>Cozinha totalmente equipada</li>
-      <li>Wi-Fi de alta velocidade</li>
-      <li>Estacionamento seguro</li>
-      <li>Piscina no rooftop com vista panorâmica</li>
-    </ul>
-    <a class="cta" href="#reservas">Reservar Agora</a>
-  </main>
+    <p>Shannon 206 é um apartamento T2 moderno localizado em Zonnebloem, Cape Town. Ideal para estadias de curta ou longa duração, oferece acesso fácil ao centro da cidade, segurança 24h, piscina e estacionamento privado.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="container">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="images/living-room.jpg" alt="Sala de Estar">
+      <img src="images/living-room2.jpg" alt="Sala de Estar">
+      <img src="images/main-bedroom.jpg" alt="Quarto">
+      <img src="images/bedroom2.jpg" alt="Quarto">
+      <img src="images/kitchen.jpg" alt="Cozinha">
+      <img src="images/window-view.jpg" alt="Varanda com Vista">
+      <img src="images/swimmingpool.jpg" alt="Piscina">
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section id="amenities" class="container">
+    <h2>Comodidades</h2>
+    <div class="amenities">
+      <div class="amenity">
+        <h3>Wi-Fi de Alta Velocidade</h3>
+        <p>Conecte-se com facilidade durante sua estadia.</p>
+      </div>
+      <div class="amenity">
+        <h3>Estacionamento Seguro</h3>
+        <p>Garanta a segurança do seu veículo.</p>
+      </div>
+      <div class="amenity">
+        <h3>Piscina</h3>
+        <p>Relaxe com uma vista panorâmica da cidade.</p>
+      </div>
+      <div class="amenity">
+        <h3>Cozinha Equipada</h3>
+        <p>Prepare suas refeições como em casa.</p>
+      </div>
+      <div class="amenity">
+        <h3>Segurança 24h</h3>
+        <p>Descanse tranquilo com vigilância contínua.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="container reviews">
+    <h2>Avaliações</h2>
+    <div class="review">
+      <p>"Tivemos uma estadia maravilhosa no Shannon 206. A vista é incrível e o apartamento é muito confortável."</p>
+      <cite>– João Lisboa</cite>
+    </div>
+    <div class="review">
+      <p>"Localização perfeita e anfitriões atenciosos. Recomendo a todos!"</p>
+      <cite>– Maria Porto</cite>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="container booking">
+    <h2>Reservas</h2>
+    <p>Selecione as datas de entrada e saída para verificar a disponibilidade:</p>
+    <form>
+      <label for="checkin">Data de Entrada:</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Data de Saída:</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <button type="submit" class="button">Verificar Disponibilidade</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container contact">
+    <h2>Contato</h2>
+	<form action="https://formspree.io/f/abc123" method="POST">
+	  <label for="name">Nome:</label>
+	  <input type="text" id="name" name="name" required>
+
+	  <label for="email">E-mail:</label>
+	  <input type="email" id="email" name="_replyto" required>
+
+	  <label for="message">Mensagem:</label>
+	  <textarea id="message" name="message" rows="5" required></textarea>
+
+	  <button type="submit" class="button">Enviar Mensagem</button>
+	</form>
+  </section>
+
+  <!-- Map Section -->
+	<div id="map" style="height: 400px; width: 100%;"></div>
+	<script>
+	  function initMap() {
+		const shannon206 = { lat: -33.927, lng: 18.424 }; // Coordenadas aproximadas
+		const map = new google.maps.Map(document.getElementById("map"), {
+		  zoom: 14,
+		  center: shannon206,
+		});
+		const marker = new google.maps.Marker({
+		  position: shannon206,
+		  map: map,
+		  title: "Shannon 206",
+		});
+	  }
+	</script>
+	<script async defer
+	  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+	</script>
+
+
+  <!-- Footer -->
   <footer>
-    <p>&copy;
+    <p>&copy; 2025 Semedo da Silva Holdings Ldt. | Shannon 206Zonnebloem, Cape Town</p>
+  </footer>
+
+</body>
+</html>
+<script src="main.js"></script>
